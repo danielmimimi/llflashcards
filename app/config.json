@@ -1,0 +1,6 @@
+{
+    "intervalDuration": 100,
+    "url1": "http://localhost:8092/dvr/rec_order?fmt=jpg&relpos=1",
+    "url2": "http://localhost:8092/dvr/rec_order?fmt=jpg&relpos=1",
+    "url3": "http://localhost:8092/dvr/rec_state?short"
+}

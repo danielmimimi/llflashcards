@@ -1,0 +1,30 @@
+{
+    "name": "Next.js Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [
+        3000
+    ],
+    "portsAttributes": {
+        "3000": {
+            "visibility": "public"
+        },
+        "customizations": {
+            "vscode": {
+                "extensions": [
+                    "dbaeumer.vscode-eslint",
+                    "esbenp.prettier-vscode",
+                    "ms-vscode.vscode-typescript-tslint-plugin"
+                ]
+            },
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "typescript.validate.enable": false,
+                "eslint.alwaysShowStatus": true,
+                "editor.formatOnSave": true,
+                "editor.codeActionsOnSave": {
+                    "source.fixAll.eslint": true
+                }
+            }
+        }
+    }
+}
